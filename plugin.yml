@@ -1,0 +1,12 @@
+name: X-Change Trading System
+main: com.adamstruthers.xchange.XChange
+version: 0.1
+prefix: X-Change Trade
+author: Skierdude45
+
+commands:
+  trade:
+    description: Use this command to trade with other players.
+    usage: /trade [player] [price] trades the item you have in-hand for set price
+    permission: xchange.trade
+    permission-message: You don't have sufficient privileges.
